@@ -31,12 +31,12 @@ def run():
     with mcol1:
         st.markdown("##### Ads Measurements")
         st.image("figures/Experiment.jpg", width=78)
-        st.write("Experimentation and statistical analysis")
+        st.write("Choose experimental, observational, or quasi-experiment measurement")
 
     with mcol2:
-        st.markdown("##### Infer Causality")
+        st.markdown("##### Causality & Forecasting")
         st.image("figures/Wrench.jpg", width=110)
-        st.write("Generate insights and make data-driven recommendations")
+        st.write("Generate insights from causal inference analysis, then make concrete, actionable recommendations")
 
     st.write("")
     st.markdown("""
