@@ -25,6 +25,8 @@ with mcol2:
     st.markdown("---")
     st.write("###### Geo based Matched Market Test")
     st.image("figures/GeoExperiment.png", width=210)
+    st.write("Measure the impact of online advertising on offline sales. Geo matching is used "
+             "instead of a randomized assignment of geos to treatment and control.")
 with mcol3:
     st.write("##### Observational measurement")
     st.markdown("---")
