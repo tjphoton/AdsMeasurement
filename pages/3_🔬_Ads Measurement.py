@@ -13,26 +13,24 @@ st.write("")
 
 st.write("#### Choose an appropriate measurement method")
 
-st.write("")
 mcol1, mcol2, mcol3 = st.columns(3)
 with mcol1:
     st.markdown("##### Experimental measurement")
-    st.write("")
+    st.markdown("---")
     st.write("###### A/B Test")
     st.image("figures/ABTesting.png", width=170)
-    st.write("May be used to test variables like, audience, placement, creative, new smart bidding algorithm")
+    st.write("Test variables like, audience, placement, creative, new RTB algorithm")
 with mcol2:
     st.markdown("##### Quasi-experimental measurement")
-    st.write("")
+    st.markdown("---")
     st.write("###### Geo based Matched Market Test")
     st.image("figures/GeoExperiment.png", width=210)
 with mcol3:
     st.write("##### Observational measurement")
-    st.write("")
+    st.markdown("---")
     st.write("###### Data-driven attribution (DDA)")
     st.image("figures/MTA.jpeg", width=200)
 
-st.write("")
 mcol1, mcol2, mcol3 = st.columns(3)
 with mcol1:
     st.write("###### Incrementality")
@@ -50,9 +48,6 @@ with mcol3:
     st.image("figures/MMM.png", width=200)
     st.write("")
 
-st.write("")
-st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
-
 st.markdown("""
             Image credit:
             - [A/B tests](https://www.brillmark.com/ab-testing/)
@@ -61,3 +56,8 @@ st.markdown("""
             - [CausalImpact](https://google.github.io/CausalImpact/CausalImpact.html)
             - [Data-driven attribution (DDA)](https://conversionmarketing.co.nz/google-adwords-conversion-paths/)
             """)
+
+st.write("---")
+st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
+
+

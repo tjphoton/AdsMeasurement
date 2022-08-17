@@ -22,5 +22,5 @@ st.write("These rapidly growing complex data sets need to be monitored in real t
          "gain insights and take actions to manage their campaigns")
 
 
-st.write("")
+st.write("---")
 st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")

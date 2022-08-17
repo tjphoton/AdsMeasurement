@@ -67,5 +67,5 @@ st.latex("76\%^{+8\%}_{-6\%}")
 st.write("You may adjust the percentage number in business goal to fine tune the feasibility probability shown above.")
 
 st.write("")
-st.write("")
+st.write("---")
 st.markdown(""" ###### © 2022 Xinjie Qiu ℠""")
