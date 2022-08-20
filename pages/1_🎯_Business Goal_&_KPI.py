@@ -61,9 +61,9 @@ st.write("")
 st.write("")
 st.write("##### Feasibility Estimation for Primary KPI _(may not be a good idea to show this info)_")
 st.write("Based on your historical campaign performance, creative performance, market dynamics, industry benchmark, "
-         "and other data sources, our statistical model(s) estimate the probability to achieve the business goal "
+         "and other data sources, our statistical model estimated the **probability** to achieve the business goal "
          "at 95% confidence level is:")
-st.latex("76\%^{+8\%}_{-6\%}")
+st.latex("76^{+8}_{-6}~\%")
 st.write("You may adjust the percentage number in business goal to fine tune the feasibility probability shown above.")
 
 st.write("")
